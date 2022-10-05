@@ -84,7 +84,7 @@ Modelo:
  
  QUIERO información sobre las líneas que llegan a mi destino
  
- COMO uruguayo
+ COMO usuario de la aplicación
 
 
 #### E2:
@@ -93,7 +93,7 @@ Modelo:
  
  QUIERO la posibilidad de crear usuarios
  
- COMO uruguayo
+ COMO usuario frecuente
 
 
 #### E3:
@@ -103,6 +103,24 @@ Modelo:
  QUIERO implementar un modo viaje
  
  COMO uruguayo
+
+
+#### E4:
+
+ PARA no perderme de nada
+ 
+ QUIERO recibir notificaciones
+ 
+ COMO usuario
+
+
+#### E5:
+
+ PARA no depender de mi conexión a internet 
+ 
+ QUIERO poder usar la aplicación de manera offline
+ 
+ COMO usuario
 
 
 ### Lista de historias de usuario
@@ -120,7 +138,7 @@ Modelo:
 
 #### US2-E1:
 
- COMO ciudadano
+ COMO persona del interior
  
  QUIERO un listado con las líneas cercanas a mi ubicación con información
  
@@ -131,7 +149,7 @@ Modelo:
 
 #### US3-E1:
 
- COMO uruguayo
+ COMO trabajador
  
  QUIERO conocer la hora de salida y llegada a destino de manera precisa
  
@@ -140,7 +158,7 @@ Modelo:
 
 #### US4-E2:
 
- COMO uruguayo
+ COMO usuario frecuente
  
  QUIERO poder registrarme con una cuenta
  
@@ -176,7 +194,7 @@ Modelo:
 
 #### US8-E3:
 
- COMO ciudadano
+ COMO uruguayo nato del interior del país
  
  QUIERO ver el trayecto de mi viaje en tiempo real
  
@@ -192,10 +210,37 @@ Modelo:
  PARA que mis adultos responsables tengan mi ubicación en tiempo real
 
 
-#### US10:
+#### US10-E4:
+
+ COMO persona
+ 
+ QUIERO recibir una notificación cuando mi línea esta llegando a mi origen y destino
+ 
+ PARA estar atento
+
+
+#### US11-E4:
+
+ COMO persona
+ 
+ QUIERO conocer si mi linea se retrasó o tiene un desvío
+ 
+ PARA tenerlo en cuenta a la hora de viajar
+
+
+#### US12:
 
  COMO montevideano
  
  QUIERO visualizar el historial de mis viajes pasados
  
  PARA volver a realizar el mismo viaje de manera rápida y cómoda
+
+
+#### US13-E5:
+
+ COMO persona
+ 
+ QUIERO descargar las frecuencias de las líneas que frecuento o tengo en favoritos
+ 
+ PARA ahorrar en datos 

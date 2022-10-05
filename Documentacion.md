@@ -3,7 +3,7 @@
 ### Identifiacion del Problema a Resolver
 Ayudar al usuario con el transporte público en el día a día.
 
-### Definicion de Interesados
+## Definicion de Interesados
 Al tratarse de una aplicacion de transporte publico, está dirigida principalmente a personas de cualquier edad que utilicen o desean utilizar este medio como transporte, como usuarios finales.
 
 Aun asi, existen otros interesados como las entidades municipales que ofrecen los datos publicos de sus transportes y a traves de esta aplicacion un mayor porcentaje de gente podria acceder a esa informacion y asi aumentar su ganancia.
@@ -22,9 +22,11 @@ Una aplicacion de transporte publico gratuita, disponible para IOS, Android y Wi
 Esta aplicacion incluye las siguientes funcionalidades:
 * Planificar un viaje: La aplicacion calcula el mejor trayecto en tiempo real para que el usuario tome ese camino para dirigirse desde un determinado origen a un determinado destino.
 * Buscar Horarios: Moovit permite buscar los horarios de una linea especifica. El usuario busca una linea y una parada por la que esa linea pase y puede ver cuanto demora en llegar el siguiente transporte. Tambien, puede ver todos los horarios en los que pasa ese movil.
- 
+
 
 ##### STM:
+Esta aplicación permite visualizar la ubicación del ómnibus en tiempo real, para todas las empresas de transporte. Además, se puede consultar cuánto falta para que el ómnibus llegue a la parada donde se encuentra el usuario y marcar paradas como favoritos con el fin de ubicarlas en el mapa rápidamente o hallarlas en una lista. 
+
 
 En resumen:
 

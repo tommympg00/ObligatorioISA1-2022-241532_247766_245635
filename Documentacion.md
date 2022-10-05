@@ -48,30 +48,154 @@ Por medio del estudio de la competencia y nuestro mercado objetivo podemos inter
 
 ### Templates:
 
-**Historias de usuario**
+#### Historias de usuario
 
 Identificador: 'US' seguido de un número identificador. Adherimos número de épica si aplica. Ej: 'US3-E1'.
 
 Modelo:
 
-  CÓMO <_TIPO DE USUARIO_>
+ CÓMO <_TIPO DE USUARIO_>
   
-  QUIERO <_FUNCIONALIDAD_>
+ QUIERO <_FUNCIONALIDAD_>
   
-  PARA <_VALOR O BENEFICIO_>
+ PARA <_VALOR O BENEFICIO_>
   
-**Épicas**
+Además agregamos un apartado de notas como recordatorio si la historia de usuario así la requiere.
+
+  
+#### Épicas
 
 Identificador: 'E' seguido de un número identificador.
 
 Modelo:
 
-  PARA <_MOTIVO DE NEGOCIO_>
+ PARA <_MOTIVO DE NEGOCIO_>
  
-  QUIERO <_ACCIÓN_>
+ QUIERO <_ACCIÓN_>
  
-  COMO <_TIPO DE USUARIO_>
+ COMO <_TIPO DE USUARIO_>
+
 
 ### Lista de épicas
 
+#### E1:
+
+ PARA viajar de manera efectiva
+ 
+ QUIERO información sobre las líneas que llegan a mi destino
+ 
+ COMO uruguayo
+
+
+#### E2:
+
+ PARA guardar mi información en distintos dispositivos
+ 
+ QUIERO la posibilidad de crear usuarios
+ 
+ COMO uruguayo
+
+
+#### E3:
+
+ PARA viajar de manera efectiva
+ 
+ QUIERO implementar un modo viaje
+ 
+ COMO uruguayo
+
+
 ### Lista de historias de usuario
+
+#### US1-E1:
+
+ COMO montevideano
+ 
+ QUIERO filtrar líneas de un listado
+ 
+ PARA encontrar las que se adapten a lo buscado
+ 
+ NOTA: filtros por caminar menos o menos trasbordos
+
+
+#### US2-E1:
+
+ COMO ciudadano
+ 
+ QUIERO un listado con las líneas cercanas a mi ubicación con información
+ 
+ PARA elegir una línea sobre otra
+
+ NOTA: información de parada de origen, destino y cantidad de pasajeros 
+
+
+#### US3-E1:
+
+ COMO uruguayo
+ 
+ QUIERO conocer la hora de salida y llegada a destino de manera precisa
+ 
+ PARA moverme de manera efectiva y reducir tiempos de espera
+
+
+#### US4-E2:
+
+ COMO uruguayo
+ 
+ QUIERO poder registrarme con una cuenta
+ 
+ PARA guardar mis paradas y líneas favoritas
+
+
+#### US5-E2:
+
+ COMO usuario registrado
+ 
+ QUIERO poder recuperar mi contraseña
+ 
+ PARA volver a iniciar sesión
+
+
+#### US6-E2:
+
+ COMO usuario registrado
+ 
+ QUIERO editar información de mi perfil
+ 
+ PARA actualizar mis datos
+
+
+#### US7-E3:
+
+ COMO uruguayo nato del interior del país
+ 
+ QUIERO ver las paradas de subida y bajada de mi viaje
+ 
+ PARA ubicarme en la ciudad
+
+
+#### US8-E3:
+
+ COMO ciudadano
+ 
+ QUIERO ver el trayecto de mi viaje en tiempo real
+ 
+ PARA tener el conocimiento del mismo
+
+
+#### US9-E3:
+
+ COMO niño/adolescente
+ 
+ QUIERO compartir mi viaje con otro usuario
+ 
+ PARA que mis adultos responsables tengan mi ubicación en tiempo real
+
+
+#### US10:
+
+ COMO montevideano
+ 
+ QUIERO visualizar el historial de mis viajes pasados
+ 
+ PARA volver a realizar el mismo viaje de manera rápida y cómoda

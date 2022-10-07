@@ -61,7 +61,7 @@ Por medio del estudio de la competencia y nuestro mercado objetivo podemos inter
 
 # **Historias de usuario y épicas**
 
-## Historias de usuario**
+## Historias de usuario
 
 Identificador: 'US' seguido de un número identificador. Adherimos número de épica si aplica. Ej: 'US3-E1'.
 

@@ -1,3 +1,6 @@
+**Estudiantes:** Pablo Tomas Martinez 241532 (Developer),
+Amar Premchand 247766 (Scrum Master, Developer),
+Salvador Panissa 245635 (Product Owner)
 
 # **Sprint 1**
 
@@ -50,7 +53,7 @@ CUTCSA es una aplicación de la Compañía Uruguaya de Transportes Colectivos qu
 - No calcula rutas, solo muestra por dónde va la línea que sale de una determinada parada.
 - A veces es difícil seleccionar una parada en zonas como el centro de la ciudad donde la cantidad de paradas es mayor al resto del país.
 
-![Shape1](RackMultipart20221007-1-4yl58x_html_49ac0cb03196381.gif)
+<img src="images/foto1.png" style="height: 350px; width:350px;  margin-left: 230px;"/>
 
 # **Lista de funcionalidades por interesado**
 
@@ -58,6 +61,27 @@ Por medio del estudio de la competencia y nuestro mercado objetivo podemos inter
 
 1. De manera tal de obtener la fidelidad del usuario y obtener una mayor retención de estos a lo largo del tiempo interponemos como funcionalidad más importante mejorar, de manera efectiva, la aproximación de los horarios al momento de moverse en ómnibus; con el fin de que la aplicación le diga al usuario a qué hora salir de su ubicación, caminar a la parada, subirse al ómnibus y llegar a destino con un error de uno/dos minutos.
 2. Aunque es verdad que con el paso del tiempo cada vez es más fácil conseguir acceso a internet y planes con mayor número de gigas por mes a menor costo; con un sentido de ahorro decidimos implementar la opción de que la aplicación pueda ser utilizada sin tener acceso al mismo. Esto sí, a un costo, el error de aproximación aumenta ya que se necesitan datos en tiempo real para que se lleve a cabo una mejor.
+
+**Funcionalidades**
+
+Usuario No Registrado: 
+- Registrarse para poder guardar datos personalizados por cada perfil.
+
+Usuario Registrado:
+- Recuperar contraseña para poder volver a inciar sesión en caso de olvidarla.
+- Compartir el viaje en tiempo real con otros usuarios para que puedan ver la ubiciación en la que se está actualmente en un instante dado.
+' Visualizar el historial de viajes pasados.
+
+Usuario:
+- Editar perfil para guardar datos personales.
+- Filtrar las líneas de ómnibus de un listado.
+- Obtener un listado con líneas de ómnibus cercanas a la ubicación actual.
+- Conocer horarios de llegada y salida a destino especificado con precisión.
+- Visualizar dónde subirse y bajarse del ómnibus dependiendo del destino especificado.
+- Visualizar el trayecto del viaje en tiempo real.
+- Recibir una notificación cuando el ómnibus deseado esté llegando.
+- Descargar un archivo con los horarios en los que pasa el ómnibus deseado.
+- Visualizar cambios no esperados en tiempo real (desvíos, atrasos, etc).
 
 # **Historias de usuario y épicas**
 
@@ -353,7 +377,7 @@ ENTONCES el sistema muestra en pantalla un mensaje que solicita al usuario que s
 
 ##  US9-E3:
 
-COMO usuario
+COMO usuario registrado
 
 QUIERO compartir mi viaje con otro usuario
 
@@ -461,11 +485,11 @@ ENTONCES se utilizan los datos móviles o el wifi para descargar esa línea que 
 
 A través de las historias de usuario y épicas detalladas previamente, el Product Owner priorizó las mismas. A su vez el equipo de desarrollo (Development Team) estimó los puntos de historia de usuario en base al conocimiento de dominio y complejidad de una historia de usuario, de esta manera estimó en base a esta misma las demás historias de usuario.
 
-![Shape2](RackMultipart20221007-1-4yl58x_html_49ac0cb03196381.gif)
+<img src="images/foto2.png"/>
 
 Con los _story points_ y correspondiente _priorización_, tenemos la base para crear el siguiente **Story Map** :
 
-![Shape3](RackMultipart20221007-1-4yl58x_html_49ac0cb03196381.gif)
+<img src="images/foto3.png"/>
 
 # **Evidencia del Registro de Actividades**
 
@@ -483,6 +507,6 @@ También, otra mejora seria hacer el Sprint Review y el Sprint Retrospective de 
 
 En adición, otra posible mejora sería la de registrar las horas de trabajo de cada integrante para así tener un monitoreo efectivo.
 
-![Shape4](RackMultipart20221007-1-4yl58x_html_49ac0cb03196381.gif)
+<img src="images/foto4.png"/>
 
-![Shape5](RackMultipart20221007-1-4yl58x_html_49ac0cb03196381.gif)
+<img src="images/foto5.png"/>

@@ -510,3 +510,21 @@ En adición, otra posible mejora sería la de registrar las horas de trabajo de 
 <img src="images/foto4.png"/>
 
 <img src="images/foto5.png"/>
+
+# **Sprint 2**
+
+## Sprint Backlog
+
+A partir de la priorización de las épicas e historias de usuario decidimos en conjunto tomar ___ épicas con sus historias de usuario correspondientes. Lo que nos permite lo anterior es que al finalizar el sprint entregaremos un avance del producto que aportará valor al cliente, es decir, una versión temprana del producto que podrá utilizar de manera limitada. 
+3 devs?
+
+Para visualizar las tareas del sprint backlog decidimos utilizar el de Azure DevOps, la misma queda de la siguiente manera para la iteración actual:
+
+
+# **Prototipos**
+
+
+
+# **Sprint Reviews**
+
+# **Validación**

@@ -1,8 +1,15 @@
-**Estudiantes:** Pablo Tomas Martinez 241532 (Developer),
-Amar Premchand 247766 (Scrum Master, Developer),
-Salvador Panissa 245635 (Product Owner)
+**Estudiantes:** 
+Pablo Tomas Martinez 241532.
+Amar Premchand 247766.
+Salvador Panissa 245635.350px
 
 # **Sprint 1**
+
+## Roles:
+
+Pablo Tomas Martinez (Developer).
+Amar Premchand (Scrum Master, Developer).
+Salvador Panissa (Product Owner).
 
 # **Identificación del Problema Por Resolver**
 
@@ -513,9 +520,15 @@ En adición, otra posible mejora sería la de registrar las horas de trabajo de 
 
 # **Sprint 2**
 
+## Roles:
+
+Pablo Tomas Martinez (Scrum Master, Developer).
+Amar Premchand (Product Owner).
+Salvador Panissa (Developer).
+
 ## Sprint Backlog
 
-A partir de la priorización de las épicas e historias de usuario decidimos en conjunto tomar ___ épicas con sus historias de usuario correspondientes. Lo que nos permite lo anterior es que al finalizar el sprint entregaremos un avance del producto que aportará valor al cliente, es decir, una versión temprana del producto que podrá utilizar de manera limitada. 
+A partir de la priorización de las épicas e historias de usuario decidimos tomar una única épica con sus historias de usuario correspondientes. Lo que nos permite lo anterior es que al finalizar el sprint entregaremos un avance del producto que aportará valor al cliente, es decir, una versión temprana del producto que podrá utilizar de manera limitada. 
 3 devs?
 
 Para visualizar las tareas del sprint backlog decidimos utilizar el de Azure DevOps, la misma queda de la siguiente manera para la iteración actual:

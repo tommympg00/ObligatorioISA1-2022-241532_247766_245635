@@ -525,12 +525,14 @@ En adición, otra posible mejora sería la de registrar las horas de trabajo de 
 Pablo Tomas Martinez (Scrum Master, Developer).
 Amar Premchand (Product Owner).
 Salvador Panissa (Developer).
+
+## Sprint planning 
  
 El objetivo del siguiente sprint es lograr que el usuario pueda viajar en ómnibus a través de la ayuda de la aplicación.
  
-## Sprint Backlog
+### Sprint Backlog
  
-A partir de la priorización de las épicas e historias de usuario decidimos tomar una única épica con sus historias de usuario correspondientes. Lo que nos permite lo anterior es que al finalizar el sprint entregaremos un avance del producto que aportará valor al cliente, es decir, una versión temprana del producto que podrá utilizar de manera limitada.
+A partir de la priorización de las épicas e historias de usuario decidimos tomar las épicas número 1 y 3 con sus historias de usuario correspondientes. Lo que nos permite lo anterior es que al finalizar el sprint entregaremos un avance del producto que aportará valor al cliente, es decir, una versión temprana del producto que podrá utilizar de manera limitada.
  
 Para visualizar las tareas de cada historia de usuario tomadas para el sprint decidimos utilizar Azure DevOps donde el backlog nos queda de la siguiente forma:
  
@@ -543,34 +545,28 @@ Para prototipar hicimos uso de la aplicación Figma ya que contamos con experien
  
 Se realizaron los prototipos que permiten desarrollar las historias de usuario de la épica definida.
  
-US 1
+#### US 2:
 El usuario es capaz de filtrar las líneas de un listado con el fin de encontrar la línea que busca. Para ello, el usuario desde la página principal de la app accede al botón inferior derecho donde se encuentra el listado de líneas.
  
 <img src="images/Main-Screen.png"/>
+<br><br>
 <img src="images/filter-lines.png"/>
 
 El usuario puede buscar la línea deseada mediante la barra de búsqueda encontrada en la parte superior de la aplicación.
  
-US 7
-Si nos encontramos en un viaje, las paradas se pueden ver en el mapa del viaje. Cada parada del trayecto sería un punto violeta en la ruta.
- 
-<img src="images/live-travel.png"/>
-A la vez, en el detalle del viaje, se puede acceder a las paradas mediante el botón verde encontrado en el resumen de la ruta. 
- 
-<img src="images/live-travel-detail.png"/>
-<img src="images/View-Stops.png"/>
- 
-US 8:
-Desde el menú principal, el usuario va a seleccionar un destino para ir. Esto se puede ver en el US 10. Luego de seleccionar las rutas el sistema muestra una el mapa del origen y destino para que el usuario verifique que es correcto el trayecto.
+#### US 3:
+Desde el menú principal, el usuario va a seleccionar un destino para ir, luego el sistema muestra una el mapa del origen y destino para que el usuario verifique que es correcto el trayecto.
  
 <img src="images/Find-Routes.png"/>
-Luego, el sistema calcula las rutas y muestra las posibles combinaciones de trayectos como se puede ver en la siguiente imagen.
+
+El sistema calcula las rutas y muestra las posibles combinaciones de trayectos como se puede ver en la siguiente imagen.
  
 <img src="images/Found-Routes.png"/>
  
 Una vez que el usuario selecciona una ruta. El sistema muestra en detalle el camino, paradas, direcciones y tiempo que lleva esa línea.
  
 <img src="images/Travel-Mode-map-detail.png"/>
+<br><br>
 <img src="images/Travel-Mode.png"/>
  
 Cuando se selecciona comenzar viaje es que el sistema muestra el trayecto real del mismo. 
@@ -581,28 +577,64 @@ Si el usuario no cuenta con una conexión wifi el sistema muestra un mensaje de 
  
 <img src="images/Travel-Mode-no-wifi.png"/>
  
+#### US 8:
+Si nos encontramos en un viaje, las paradas se pueden ver en el mapa del viaje. Cada parada del trayecto sería un punto violeta en la ruta.
  
-US 9:
+<img src="images/live-travel.png"/>
+
+A la vez, en el detalle del viaje, se puede acceder a las paradas mediante el botón verde encontrado en el resumen de la ruta. 
+ 
+<img src="images/live-travel-detail.png"/>
+<br><br>
+<img src="images/View-Stops.png"/>
+
+
+#### US 9:
  Si nos encontramos en un viaje y clickeamos sobre el icono de compartir; podremos hacerlo a través de Whatsapp o mensajes a un contacto, tal como se muestra a continuación:
  
 <img src="images/live-travel.png"/>
+<br><br>
 <img src="images/live-travel-detail.png"/>
+<br><br>
 <img src="images/share-trip.png"/>
  
 Si el usuario no posee una conexión a la red entonces al tratar de compartir viaje entonces se muestra un mensaje de error.
  
 <img src="images/Travel-Mode-no-wifi.png"/>
  
-US 10: 
+#### US 10: 
  En el menú principal al hacer click en el cuadro de texto de “¿A dónde quieres ir?” se nos muestra el historial de nuestros últimos viajes realizados en los últimos 30 días, de tal manera que si clickeamos sobre un destino podremos repetir el viaje hacia al mismo como se muestra en el siguiente prototipo:
  
 <img src="images/Main-Screen.png"/>
+<br><br>
 <img src="images/Search-Screen.png"/>
  
- 
- 
 # **Sprint Review y Sprint Retrospective**
-La Sprint Retrospective de esta iteración, llevada a cabo después de la Sprint Review, fue guiada por el Scrum Master correspondiente al completar el sprint backlog de la actual iteración. Allí se destacó como aspecto que el equipo debía mejorar, el hecho de la organización de la ejecución de las tareas, ya que se ejecutaban y luego se perdía mucho tiempo agregando detalles que no fueron tomados en cuenta desde un principio. 
+La Sprint Retrospective de esta iteración, llevada a cabo después de la Sprint Review, fue guiada por el Scrum Master correspondiente al completar el sprint backlog de la actual iteración. Allí se destacó como aspecto que el equipo debía mejorar, el hecho de la organización de la ejecución de las tareas, ya que se ejecutaban y luego se perdía mucho tiempo agregando detalles que no fueron tomados en cuenta desde un principio. Además mejorar la comunicación para no estar trabajando sobre lo mismo. Debido a lo comentado anteriormente no se pudo completar todas las tareas planeadas para este sprint por lo que se pasaron nuevamente al product backlog para ser priorizadas nuevamente.
  
 En la sprint review llevada a cabo para esta última iteración se obtuvo el feedback de interesados de diferentes edades y de todo el país del territorio nacional para cubrir todo el posible mercado de usuarios que llevarían a cabo el uso de la aplicación. El prototipo que fue presentado mostraba las funcionalidades requeridas correctamente y de forma accesible, debido a que todos los usuarios pudieron realizar las tareas asignadas, de manera rápida e intuitiva. 
 
+# **Sprint 3**
+ 
+## Roles:
+ 
+Pablo Tomas Martinez ().
+Amar Premchand ().
+Salvador Panissa ().
+
+## Sprint planning 
+
+El objetivo de la siguiente sprint agregar funcionalidades de feedback para mejorar la experencia de usuario y agregar el modo offline, funcionalidad que nos diferenciará de la competencia. 
+
+Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retroespectiva, podemos esperar mejorar la comunicación y estar más atentos a los errores en esta sprint; de esta manera mejorar nuestra velocidad como equipo. *Por ello nos hemos planteado hacer el intento de realizar 44 puntos en esta sprint.* 
+
+### Sprint Backlog
+
+A partir del objetivo del sprint y la priorización de las historias decidimos en esta sprint realizar las épicas 2, 4 y 5 con sus historias de usuario correspondientes. Con esto y lo completado anteriormente ya podemos tener una versión casi final del productos con todas sus funcionalidades.
+
+//agregar tareas de cada US y agregar foto 
+
+# **Prototipos**
+
+//actualizar sprint backlog anterior
+//arreglar foto de US-2

@@ -1,11 +1,11 @@
 **Estudiantes:** 
 Pablo Tomas Martinez 241532.
 Amar Premchand 247766.
-Salvador Panissa 245635.350px
+Salvador Panissa 245625.
 
-# **Sprint 1**
+# Sprint 1
 
-## Roles:
+### Roles:
 
 Pablo Tomas Martinez (Developer).
 Amar Premchand (Scrum Master, Developer).
@@ -172,7 +172,7 @@ PARA encontrar las que se adapten a lo buscado
 
 NOTA: filtros por caminar menos o menos trasbordos
 
-**Criterio de Aceptación:**
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -200,7 +200,7 @@ PARA elegir una línea sobre otra
 
 NOTA: información de parada de origen, destino y cantidad de pasajeros
 
-### **Criterio de Aceptación:**
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -226,7 +226,7 @@ QUIERO conocer la hora de salida y llegada a destino de manera precisa
 
 PARA moverme de manera efectiva y reducir tiempos de espera
 
-## **Criterio de Aceptación:**
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -276,7 +276,7 @@ QUIERO poder registrarme con una cuenta
 
 PARA guardar mis paradas y líneas favoritas
 
-## Criterios de Aceptación:
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -346,7 +346,7 @@ QUIERO ver las paradas de subida y bajada de mi viaje
 
 PARA ubicarme en la ciudad
 
-**Criterios de Aceptación:**
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -416,7 +416,7 @@ QUIERO visualizar el historial de mis viajes pasados
 
 PARA volver a realizar el mismo viaje de manera rápida y cómoda
 
-### **Criterios de Aceptación:**
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -460,7 +460,7 @@ QUIERO conocer si mi línea se retrasó o tiene un desvío
 
 PARA tenerlo en cuenta a la hora de viajar
 
-### **Criterios de Aceptación:**
+### Criterios de Aceptación:
 
 **ESCENARIO 1:**
 
@@ -488,7 +488,7 @@ CUANDO un usuario registrado solicita descargarla
 
 ENTONCES se utilizan los datos móviles o el wifi para descargar esa línea que queda guardada en la memoria del usuario.
 
-# **Story Map**
+## Story Map
 
 A través de las historias de usuario y épicas detalladas previamente, el Product Owner priorizó las mismas. A su vez el equipo de desarrollo (Development Team) estimó los puntos de historia de usuario en base al conocimiento de dominio y complejidad de una historia de usuario, de esta manera estimó en base a esta misma las demás historias de usuario.
 
@@ -498,7 +498,7 @@ Con los _story points_ y correspondiente _priorización_, tenemos la base para c
 
 <img src="images/foto3.png"/>
 
-# **Evidencia del Registro de Actividades**
+## Evidencia del Registro de Actividades
 
 En el Sprint Planning como grupo se decide que para esta instancia de interacción cada miembro del equipo tenía como objetivo pensar en posibles interesados, user stories y/o épicas para luego presentar al Product Owner con el fin de obtener su aprobación para así definir el Product Backlog. Debido a los objetivos de esta instancia, se decide no registrar las horas trabajadas de cada integrante. Aun así, en las Daily meets cada uno mostraba su progreso en el trabajo.
 
@@ -520,7 +520,7 @@ En adición, otra posible mejora sería la de registrar las horas de trabajo de 
 
 # **Sprint 2**
  
-## Roles:
+### Roles:
  
 Pablo Tomas Martinez (Scrum Master, Developer).
 Amar Premchand (Product Owner).
@@ -530,16 +530,17 @@ Salvador Panissa (Developer).
  
 El objetivo del siguiente sprint es lograr que el usuario pueda viajar en ómnibus a través de la ayuda de la aplicación.
  
-### Sprint Backlog
+## Sprint Backlog
  
 A partir de la priorización de las épicas e historias de usuario decidimos tomar las épicas número 1 y 3 con sus historias de usuario correspondientes. Lo que nos permite lo anterior es que al finalizar el sprint entregaremos un avance del producto que aportará valor al cliente, es decir, una versión temprana del producto que podrá utilizar de manera limitada.
  
 Para visualizar las tareas de cada historia de usuario tomadas para el sprint decidimos utilizar Azure DevOps donde el backlog nos queda de la siguiente forma:
  
+<img src="images/backlog2.1.png"/>
+
+<img src="images/backlog2.1.png"/>
  
-<img src="images/backlog1.png"/>
- 
-# **Prototipos**
+## **Prototipos**
  
 Para prototipar hicimos uso de la aplicación Figma ya que contamos con experiencia previa en la misma. Realizamos las interfaces de usuarios correspondientes para cada card con el fin de representar las funcionalidades.
  
@@ -590,7 +591,7 @@ A la vez, en el detalle del viaje, se puede acceder a las paradas mediante el bo
 
 
 #### US 9:
- Si nos encontramos en un viaje y clickeamos sobre el icono de compartir; podremos hacerlo a través de Whatsapp o mensajes a un contacto, tal como se muestra a continuación:
+Si nos encontramos en un viaje y clickeamos sobre el icono de compartir; podremos hacerlo a través de Whatsapp o mensajes a un contacto, tal como se muestra a continuación:
  
 <img src="images/live-travel.png"/>
 <br><br>
@@ -609,18 +610,19 @@ Si el usuario no posee una conexión a la red entonces al tratar de compartir vi
 <br><br>
 <img src="images/Search-Screen.png"/>
  
-# **Sprint Review y Sprint Retrospective**
+## Sprint Review y Sprint Retrospective
+
 La Sprint Retrospective de esta iteración, llevada a cabo después de la Sprint Review, fue guiada por el Scrum Master correspondiente al completar el sprint backlog de la actual iteración. Allí se destacó como aspecto que el equipo debía mejorar, el hecho de la organización de la ejecución de las tareas, ya que se ejecutaban y luego se perdía mucho tiempo agregando detalles que no fueron tomados en cuenta desde un principio. Además mejorar la comunicación para no estar trabajando sobre lo mismo. Debido a lo comentado anteriormente no se pudo completar todas las tareas planeadas para este sprint por lo que se pasaron nuevamente al product backlog para ser priorizadas nuevamente.
  
 En la sprint review llevada a cabo para esta última iteración se obtuvo el feedback de interesados de diferentes edades y de todo el país del territorio nacional para cubrir todo el posible mercado de usuarios que llevarían a cabo el uso de la aplicación. El prototipo que fue presentado mostraba las funcionalidades requeridas correctamente y de forma accesible, debido a que todos los usuarios pudieron realizar las tareas asignadas, de manera rápida e intuitiva. 
 
 # **Sprint 3**
  
-## Roles:
+### Roles:
  
-Pablo Tomas Martinez ().
-Amar Premchand ().
-Salvador Panissa ().
+Pablo Tomas Martinez (Developer)
+Amar Premchand (Scrum Master, Developer).
+Salvador Panissa (Product Owner).
 
 ## Sprint planning 
 
@@ -628,13 +630,31 @@ El objetivo de la siguiente sprint agregar funcionalidades de feedback para mejo
 
 Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retroespectiva, podemos esperar mejorar la comunicación y estar más atentos a los errores en esta sprint; de esta manera mejorar nuestra velocidad como equipo. *Por ello nos hemos planteado hacer el intento de realizar 44 puntos en esta sprint.* 
 
-### Sprint Backlog
+## Sprint Backlog
 
 A partir del objetivo del sprint y la priorización de las historias decidimos en esta sprint realizar las épicas 2, 4 y 5 con sus historias de usuario correspondientes. Con esto y lo completado anteriormente ya podemos tener una versión casi final del productos con todas sus funcionalidades.
 
-//agregar tareas de cada US y agregar foto 
+- agregar foto backlog
 
-# **Prototipos**
+## **Prototipos**
 
-//actualizar sprint backlog anterior
-//arreglar foto de US-2
+- agregar y ordenar las US (mirar el numero del MD) 
+
+#### US 5:
+Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña, al clickear sobre "Forgot your Password?".
+
+<img src="images/Login-Screen.png"/>
+
+Nos lleva a la siguiente pantalla donde ingresamos nuestro correo electrónico para que podamos recuperar nuestra cuenta.
+
+<img src="images/forgot-password.png"/>
+
+#### US NRO:
+
+#### US NRO:
+
+#### US NRO:
+
+## Validación con usuarios
+
+## Sprint Review y Sprint Retrospective

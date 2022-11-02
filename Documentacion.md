@@ -11,7 +11,7 @@ Pablo Tomas Martinez (Developer).
 Amar Premchand (Scrum Master, Developer).
 Salvador Panissa (Product Owner).
 
-# **Identificación del Problema Por Resolver**
+# **Identificación del Problema A Resolver**
 
 Ayudar al usuario con el transporte público en el día a día.
 
@@ -536,10 +536,8 @@ A partir de la priorización de las épicas e historias de usuario decidimos tom
  
 Para visualizar las tareas de cada historia de usuario tomadas para el sprint decidimos utilizar Azure DevOps donde el backlog nos queda de la siguiente forma:
  
-<img src="images/backlog2.1.png"/>
+<img src="images/backlog-2.png"/>
 
-<img src="images/backlog2.1.png"/>
- 
 ## **Prototipos**
  
 Para prototipar hicimos uso de la aplicación Figma ya que contamos con experiencia previa en la misma. Realizamos las interfaces de usuarios correspondientes para cada card con el fin de representar las funcionalidades.
@@ -634,11 +632,25 @@ Para este sprint contamos con una referencia de velocidad del equipo la cual fue
 
 A partir del objetivo del sprint y la priorización de las historias decidimos en esta sprint realizar las épicas 2, 4 y 5 con sus historias de usuario correspondientes. Con esto y lo completado anteriormente ya podemos tener una versión casi final del productos con todas sus funcionalidades.
 
-- agregar foto backlog
+<img src="images/backlog-3.png"/>
 
 ## **Prototipos**
 
 - agregar y ordenar las US (mirar el numero del MD) 
+
+- US ID 10 - US 4 hay que agregar los cambios de wpp
+- US ID 11 - US 5 terminado
+
+#### US 4:
+Para la sección de registro decidimos crear una barra lateral donde el usuario podrá iniciar sesión o registrarse.
+
+<img src="images/Sidebar-NotLoggedIn.png"/>
+
+En el caso de que estemos loggeados entonces podremos agregar líneas y paradas a favoritos clickeando sobre "Líneas" y "Paradas" respectivamente en el menú principal y acceder a las mismas desde allí.
+
+<img src="images/favourite-lines.png"/>
+
+<img src="images/favourite-stops.png"/>
 
 #### US 5:
 Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña, al clickear sobre "Forgot your Password?".
@@ -648,6 +660,8 @@ Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña,
 Nos lleva a la siguiente pantalla donde ingresamos nuestro correo electrónico para que podamos recuperar nuestra cuenta.
 
 <img src="images/forgot-password.png"/>
+
+#### US NRO:
 
 #### US NRO:
 

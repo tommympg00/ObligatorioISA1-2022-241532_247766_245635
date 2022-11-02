@@ -620,7 +620,7 @@ En la sprint review llevada a cabo para esta última iteración se obtuvo el fee
  
 ### Roles:
  
-Pablo Tomas Martinez (Developer)
+Pablo Tomas Martinez (Developer).
 Amar Premchand (Scrum Master, Developer).
 Salvador Panissa (Product Owner).
 
@@ -628,7 +628,7 @@ Salvador Panissa (Product Owner).
 
 El objetivo de la siguiente sprint agregar funcionalidades de feedback para mejorar la experencia de usuario y agregar el modo offline, funcionalidad que nos diferenciará de la competencia. 
 
-Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retroespectiva, podemos esperar mejorar la comunicación y estar más atentos a los errores en esta sprint; de esta manera mejorar nuestra velocidad como equipo. *Por ello nos hemos planteado hacer el intento de realizar 44 puntos en esta sprint.* 
+Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retroespectiva, podemos esperar mejorar la comunicación y organización para así estar más atentos a los errores en esta sprint, de esta manera mejorar nuestra velocidad como equipo.
 
 ## Sprint Backlog
 
@@ -658,3 +658,6 @@ Nos lleva a la siguiente pantalla donde ingresamos nuestro correo electrónico p
 ## Validación con usuarios
 
 ## Sprint Review y Sprint Retrospective
+
+Gracias a la retroespectiva de la última iteración pudimos mejorar la comunicación del equipo, esto junto con una mayor organización y mejor dominio del problema conllevo a que el equipo haya tenido un mejor desempeñado en la sprint. Lo anterior se vió traducido en la velocidad del equipo, cumplimiento con el objetivo y planeación de la iteración y eficiencia del equipo.
+

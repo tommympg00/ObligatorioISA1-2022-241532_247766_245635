@@ -11,11 +11,27 @@ Pablo Tomas Martinez (Developer).
 Amar Premchand (Scrum Master, Developer).
 Salvador Panissa (Product Owner).
 
-# **Identificación del Problema A Resolver**
+#### Responsabilidad de cada rol
+
+**Scrum Master:** El SM ayuda al Scrum Team a que funcione como equipo, que el mismo cree incrementos de alto valor que matchee la *Definition of Done*. 
+
+**Product Owner:** La responsabilidad del PO se basa en trasmitir al equipo de desarrollo el *Product Goal*. Prioriza las funcionalidades que van a ser desarrolladas para cada iteración y ayuda a que las mismas sean entendidas por los desarrolladores.
+
+**Developer:** Se encarga del desglosamiento de las historias de usuario en tareas según la priorización del PO para luego estimar y trabajar sobre las mismas.
+
+Como equipo es importante destacar que debe de haber una buena comunicación entre las tres partes para que las mismas esten de acuerdo con el rumbo del proyecto, además tratar de minimizar conflictos y maximizar trasparencias con el fin de que el proyecto no se vea perjudicado.
+
+### Definition of Ready:
+Se trata de inspeccionar que los items del Product Backlog sean comprendidos por el equipo de desarrollo y además que cada item cumpla con las siguientes características: Independiente, negociable, estimable, valuable, pequeña y testeable. 
+
+### Definition of Done:
+La definición de *Done* describe que es necesario para que el próximo incremento del producto pueda darse por finalizado y entregable a un usuario final.
+
+# **Identificación del problema a resolver**
 
 Ayudar al usuario con el transporte público en el día a día.
 
-# **Definición de Interesados**
+# **Definición de interesados**
 
 Al tratarse de una aplicación de transporte público, está dirigida principalmente a personas de cualquier edad que utilicen o desean utilizar este medio como transporte, como usuarios finales.
 
@@ -627,6 +643,12 @@ Salvador Panissa (Product Owner).
 El objetivo de la siguiente sprint agregar funcionalidades de feedback para mejorar la experencia de usuario y agregar el modo offline, funcionalidad que nos diferenciará de la competencia. 
 
 Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retroespectiva, podemos esperar mejorar la comunicación y organización para así estar más atentos a los errores en esta sprint, de esta manera mejorar nuestra velocidad como equipo.
+
+## Story map
+
+Como consecuencia de nuestra planeación hemos actualizado el story map el cual quedará de la siguiente forma:
+
+<img src="images/storymap-sprint3.png"/>
 
 ## Sprint Backlog
 

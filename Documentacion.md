@@ -683,7 +683,15 @@ Nos lleva a la siguiente pantalla donde ingresamos nuestro correo electrónico p
 
 <img src="images/forgot-password.png"/>
 
-#### US NRO:
+#### US 6:
+A la hora de buscar las paradas, estas se deberian poder filtrar por paradas además de poder visualizar las paradas marcadas como favoritos.
+
+
+<img src="images/filtrar-paradas.png"/>
+
+
+<img src="images/favourite-stops.png"/>
+
 
 #### US NRO:
 

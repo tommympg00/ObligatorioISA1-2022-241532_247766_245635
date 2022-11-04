@@ -3,16 +3,6 @@ Pablo Tomas Martinez 241532.
 Amar Premchand 247766.
 Salvador Panissa 245625.
 
-# Sprint 1
-
-### Roles:
-
-Pablo Tomas Martinez (Developer).
-Amar Premchand (Scrum Master, Developer).
-Salvador Panissa (Product Owner).
-
-#### Responsabilidad de cada rol
-
 **Scrum Master:** El SM ayuda al Scrum Team a que funcione como equipo, que el mismo cree incrementos de alto valor que matchee la *Definition of Done*. 
 
 **Product Owner:** La responsabilidad del PO se basa en trasmitir al equipo de desarrollo el *Product Goal*. Prioriza las funcionalidades que van a ser desarrolladas para cada iteración y ayuda a que las mismas sean entendidas por los desarrolladores.
@@ -26,6 +16,17 @@ Se trata de inspeccionar que los items del Product Backlog sean comprendidos por
 
 ### Definition of Done:
 La definición de *Done* describe que es necesario para que el próximo incremento del producto pueda darse por finalizado y entregable a un usuario final.
+
+
+# Sprint 1
+
+### Roles:
+
+Pablo Tomas Martinez (Developer).
+Amar Premchand (Scrum Master, Developer).
+Salvador Panissa (Product Owner).
+
+#### Responsabilidad de cada rol
 
 # **Identificación del problema a resolver**
 
@@ -180,7 +181,7 @@ COMO usuario
 
 ## US1-E1:
 
-COMO montevideano
+COMO usuario
 
 QUIERO filtrar líneas de un listado
 
@@ -214,7 +215,7 @@ QUIERO un listado con las líneas cercanas a mi ubicación con información
 
 PARA elegir una línea sobre otra
 
-NOTA: información de parada de origen, destino y cantidad de pasajeros
+NOTA: información de parada de origen, destino.
 
 ### Criterios de Aceptación:
 
@@ -470,7 +471,7 @@ ENTONCES se le notifica al usuario
 
 ## US12-E4:
 
-COMO persona
+COMO usuario
 
 QUIERO conocer si mi línea se retrasó o tiene un desvío
 
@@ -605,7 +606,7 @@ A la vez, en el detalle del viaje, se puede acceder a las paradas mediante el bo
 
 
 #### US 9:
-Si nos encontramos en un viaje y clickeamos sobre el icono de compartir; podremos hacerlo a través de Whatsapp o mensajes a un contacto, tal como se muestra a continuación:
+Si nos encontramos en un viaje y clicábamos sobre el icono de compartir; podremos hacerlo a través de Whatsapp o mensajes a un contacto, tal como se muestra a continuación:
  
 <img src="images/live-travel.png"/>
 <br><br>
@@ -640,9 +641,9 @@ Salvador Panissa (Product Owner).
 
 ## Sprint planning 
 
-El objetivo de la siguiente sprint agregar funcionalidades de feedback para mejorar la experencia de usuario y agregar el modo offline, funcionalidad que nos diferenciará de la competencia. 
+El objetivo de la siguiente sprint agregar funcionalidades de feedback para mejorar la experiencia de usuario y agregar el modo offline, funcionalidad que nos diferenciará de la competencia. 
 
-Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retroespectiva, podemos esperar mejorar la comunicación y organización para así estar más atentos a los errores en esta sprint, de esta manera mejorar nuestra velocidad como equipo.
+Para este sprint contamos con una referencia de velocidad del equipo la cual fue de 28 puntos de trabajo en el sprint. Tomando en cuenta lo analizado en la retrospectiva, podemos esperar mejorar la comunicación y organización para así estar más atentos a los errores en esta sprint, de esta manera mejorar nuestra velocidad como equipo.
 
 ## Story map
 
@@ -667,9 +668,9 @@ A partir del objetivo del sprint y la priorización de las historias decidimos e
 Para la sección de registro decidimos crear una barra lateral donde el usuario podrá iniciar sesión o registrarse.
 
 <img src="images/Sidebar-NotLoggedIn.png"/>
-sidebarLogged VA ACA
+<img src="images/Sidebar-loggedIn.png">
 
-En el caso de que estemos loggeados entonces podremos agregar líneas y paradas a favoritos clickeando sobre "Líneas" y "Paradas" respectivamente en el menú principal y acceder a las mismas desde allí.
+En el caso de que estemos logueados entonces podremos agregar líneas y paradas a favoritos clickeando sobre "Líneas" y "Paradas" respectivamente en el menú principal y acceder a las mismas desde allí.
 
 <img src="images/favourite-lines.png"/>
 
@@ -680,32 +681,117 @@ Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña,
 
 <img src="images/Login-Screen.png"/>
 
-Nos lleva a la siguiente pantalla donde ingresamos nuestro correo electrónico para que podamos recuperar nuestra cuenta.
+Si el usuario selecciona este botón se le envía un correo al email ingresado con instrucciones para recuperar la cuenta.
 
 <img src="images/forgot-password.png"/>
 
 #### US 6:
-A la hora de buscar las paradas, estas se deberian poder filtrar por paradas además de poder visualizar las paradas marcadas como favoritos.
+A la hora de buscar las paradas, estas se deberían poder filtrar por paradas además de poder visualizar las paradas marcadas como favoritos.
+
+<img src="images/filter-lines.png"/>
 
 
-<img src="images/filtrar-paradas.png"/>
+<img src="images/favourite-lines.png"/>
 
+#### US 2 - ID 8:
+Cuando el usuario selecciona un origen y un destino del viaje, aparecen todas las posibles combinaciones de trayectos que lo llevan a ese destino. Allí el usuario en base a sus preferencias de tiempo de viaje, cantidad de trasbordos, línea favorita, etc., puede decidir que viaje tomar.
 
-<img src="images/favourite-stops.png"/>
+<img src="images/found-routes.png">
 
+#### US 3 - ID 9:
+El usuario puede ver el tiempo estimado de llegada de su ómnibus en tiempo real una vez que selecciona la opción de iniciar viaje. 
 
-#### US 7:
-El usuario puede ver si ocurrió algo con el ómnibus que estaba esperando, si se retrasó u ocurrió algún inconveniente.
+#### US 4 - ID 10:
+El usuario puede registrarse a traves de la barra de navegación. 
+<img src="images/sidebar-NotLoggedIn.png">
+Una vez que se selecciona el botón de registro, se abre un modal con el formulario de registro.
+<img src="images/register.png">
+El usuario llena los campos y selecciona el botón de "Registrarse". Luego de eso se le envía un codigo de confirmación a su numero telefónico que luego es usado para verificar la cuenta.
+<img src="images/verify-phone.png">
+Una vez que se verifica el numero de teléfono, el usuario puede iniciar sesión con su cuenta en seleccionando la opción de login.
 
-<img src="images/live-travel-late-bus.png"/>
+#### US6 - ID 12:
+Una vez que el usuario esta registrado, el mismo puede editar su información personal, como por ejemplo el numero de teléfono, el email, etc. Esto se puede hacer desde la barra de navegación, seleccionando la opción de "Mi información".
+<img src="images/sidebar-LoggedIn.png">
+Seleccionando la opción de "Mi información" se abre un modal con la información del usuario.
+<img src="images/change-user-information.png">
+Una vez que el usuario selecciona el botón de guardar los cambios estos quedan efectuados
 
-#### US NRO:
+#### US 7 - ID 13:
+El usuario puede ver las paradas de su viaje de dos maneras, una es mediante el mapa cuando el usuario esta en modo viaje. 
+<img src="images/live-travel.png">
+Como se puede ver en el mapa, los puntos violetas son las paradas. Las paradas por las cuales el usuario ya paso se muestran con un circulo con relleno blanco y las paradas por las cuales el usuario aun no paso se muestran en color violeta.
 
-#### US NRO:
+La otra es mediante el detalle del viaje, presionando el botón verde.
+
+<img src="images/live-travel-detail.png">
+
+Presionando este botón abre un modal con el detalle de las paradas y el tiempo que falta por llegar a las mismas.
+
+<img src="images/view-stops.png">
+
+#### US 8 - ID 14:
+Una vez que el usuario selecciona el botón de iniciar viaje, se le muestra un modal con el detalle del viaje, el cual incluye el tiempo estimado de llegada, el tiempo que falta para llegar a la parada, el tiempo que falta para llegar al destino, el tiempo que lleva llegar al destino.
+
+<img src="images/Travel-Mode-map-detail.png">
+
+Presionando este botón podemos ver el modal con el detalle del viaje.
+
+<img src="images/live-travel.png">
+<img src="images/live-travel-detail.png">
+
+#### US11 - ID 16:
+Una vez que el usuario se encuentra en un viaje, la aplicación envía notificaciones al usuario cuando el viaje esta por comenzar y cuando el viaje esta por finalizar.
+
+<img src="images/Notification-bus-arriving.png">
+<img src="images/Notification-arriving-destiny.png">
+
+#### US 12 - ID 17:
+El usuario puede ver el tiempo estimado de llegada de su ómnibus en tiempo real una vez que selecciona la opción de iniciar viaje.
+Si el omnibus viene retrasado se muestra en rojo el nuevo tiempo esperado de llegada.
+
+<img src="images/live-travel-late-bus.png">
+
+#### US 13 - ID 19:
+El usuario puede descargar la información de las líneas ingresando al botón inferior de ver líneas. 
+<img src="images/main-screen.png">
+Una vez que el usuario selecciona el botón de ver líneas, se le muestra un modal con el listado de las líneas.
+<img src="images/search-line60.png">
+Desde este modal, el usuario puede buscar o seleccionar la línea que desea descargar. Apretando esa línea, se amplia la información de la misma.
+<img src="images/download-line60.png">
+Una vez que el usuario amplia la información, se le muestra un modal con la información de la línea y el botón de descargar.
+Si el usuario presiona este botón, esta línea es descargada. Luego puede acceder a ella desde el botón de "Líneas" en la pantalla principal. Donde mediante un icono verde se indica que la línea esta descargada
+<img src="images/downloaded-line60.png">
+
+#### Burndown Chart
+<img src="images/burndown-sprint3.jpg">
 
 ## Validación con usuarios
+Se realizaron entrevistas a posibles usuarios para validar el producto. Los posibles usuarios seleccionados fueron personas que usan el transporte público en la ciudad de Montevideo. Estos fueron:
+- Usuario 1: 21 años, estudiante de ingeniería, usa el transporte público 4 veces por semana.
+- Usuario 2: 24 años, estudiante de ingeniería, usa el transporte público 2 veces por semana.
+- Usuario 3: 27 años, estudiante de derecho, usa el transporte público todos los días semana.
+
+Los usuarios fueron entrevistados en la oficina de la empresa. Se les mostró el producto y se les pidió que lo usaran. Luego se les hizo una serie de preguntas para validar el producto. Las preguntas fueron:
+#### ¿Qué te parece el diseño del producto?
+En general tanto al usuario 1 como al usuario 2 les pareció intuitiva la interfaz del producto. El usuario 1 dijo que le gustó el diseño y el usuario 2 dijo que le pareció muy intuitivo. Por el lado del usuario 3 le agradó cómo se le informa al usuario sobre los casos erróneos de acciones, cómo las validaciones de las funcionalidades que requieren el uso de internet.
+#### ¿Qué te parece la usabilidad del producto?
+A todos los usuarios les pareció que la usabilidad del producto era óptima, dijeron que como la aplicación facilita la lectura de los textos y presentan funciones y menús sencillos. Una cosa que nos comentó el usuario 2 es que le gustaría que la aplicación brindara la opción de ingresar sesión con google y nos pareció una funcionalidad que podría aportar valor al producto por lo que en la daily meet se propuso implementarla. Al usuario 3 le hubiese gustado que la aplicación tenga su versión en otro idioma, ya sea el inglés, debido a que conoce a mucha gente de otros países que desconocen el idioma de español.
+#### ¿Qué te parecen las funcionalidades del producto?
+A ambos les gustaron las funcionalidades que brindaba la aplicación. El usuario 1 dijo que era todo lo que esperaba de una aplicación de transporte. En relación al diseño de la aplicación, el usuario 1 planteo la posibilidad de poder marcar a las líneas como favoritas mediante un simple botón reactivo. Por ello fue que se diseñó el componente de la estrella que representa las líneas marcadas como favoritas. El usuario 2 dijo que a pesar de que las funcionalidades que provee la aplicación son de suma utilidad, una buena funcionalidad para agregarle a la misma seria la posibilidad de poder pagar el boleto de transporte mediante la app con el fin de evitar usar dinero en efectivo. Nos pareció una buena idea y se discutió la posibilidad de agregarla pero requería un cambio grande en la infraestructura de la aplicación por lo que decidimos no prover esa funcionalidad.
+#### ¿Qué te parece la información que se muestra en el detalle de la línea?
+Al usuario 3 le pareció de gran utilidad ya que al transportarse en ómnibus todos los días, le sirve para ver dónde es la parada que más cercana que le sirva desde un origen que no suele frecuentar. Por otro lado, a los otros dos usuarios les encantó también, pero no es algo que usarían tanto ya que lo usan para ir a lugares conocidos, si no conocen ese lugar, usan algún otro medio de transporte.
+#### Evidencia de entrevistas
+##### Entrevista con los usuarios 1 y 2
+<img src="images/entrevista_1.png">
+
+
+
+## Adaptación de Daily Scrum
+
+Con respecto a las "Daily Scrum", el equipo siguió un orden estipulado para que cada integrante pueda informar a los demás sobre las tareas que había hecho y las que va a realizar en un futuro. Este orden establecido era por orden alfabético de los nombres de los integrantes del equipo. Cada vez que le tocaba hablar a alguno no sólo se informaba de lo trabajado, sino que también si precisaba ayuda en alguna tarea y también algún detalle que se consideraba informarle al equipo (por ejemplo los días de licencia).
 
 ## Sprint Review y Sprint Retrospective
 
-Gracias a la retroespectiva de la última iteración pudimos mejorar la comunicación del equipo, esto junto con una mayor organización y mejor dominio del problema conllevo a que el equipo haya tenido un mejor desempeñado en la sprint. Lo anterior se vió traducido en la velocidad del equipo, cumplimiento con el objetivo y planeación de la iteración y eficiencia del equipo.
+Gracias a la retrospectiva de la última iteración pudimos mejorar la comunicación del equipo, esto junto con una mayor organización y mejor dominio del problema conllevo a que el equipo haya tenido un mejor desempeñado en la sprint. Lo anterior se vio traducido en la velocidad del equipo, cumplimiento con el objetivo y planeación de la iteración y eficiencia del equipo.
 

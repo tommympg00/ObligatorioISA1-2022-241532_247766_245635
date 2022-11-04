@@ -667,6 +667,7 @@ A partir del objetivo del sprint y la priorización de las historias decidimos e
 Para la sección de registro decidimos crear una barra lateral donde el usuario podrá iniciar sesión o registrarse.
 
 <img src="images/Sidebar-NotLoggedIn.png"/>
+sidebarLogged VA ACA
 
 En el caso de que estemos loggeados entonces podremos agregar líneas y paradas a favoritos clickeando sobre "Líneas" y "Paradas" respectivamente en el menú principal y acceder a las mismas desde allí.
 
@@ -693,7 +694,10 @@ A la hora de buscar las paradas, estas se deberian poder filtrar por paradas ade
 <img src="images/favourite-stops.png"/>
 
 
-#### US NRO:
+#### US 7:
+El usuario puede ver si ocurrió algo con el ómnibus que estaba esperando, si se retrasó u ocurrió algún inconveniente.
+
+<img src="images/live-travel-late-bus.png"/>
 
 #### US NRO:
 

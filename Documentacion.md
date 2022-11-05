@@ -3,20 +3,22 @@ Pablo Tomas Martinez 241532.
 Amar Premchand 247766.
 Salvador Panissa 245625.
 
-**Scrum Master:** El SM ayuda al Scrum Team a que funcione como equipo, que el mismo cree incrementos de alto valor que matchee la *Definition of Done*. 
+**Scrum Master:** El SM ayuda al Scrum Team a que funcione como equipo, que el mismo cree incrementos de alto valor que sigan la *Definition of Done*. 
 
 **Product Owner:** La responsabilidad del PO se basa en trasmitir al equipo de desarrollo el *Product Goal*. Prioriza las funcionalidades que van a ser desarrolladas para cada iteración y ayuda a que las mismas sean entendidas por los desarrolladores.
 
 **Developer:** Se encarga del desglosamiento de las historias de usuario en tareas según la priorización del PO para luego estimar y trabajar sobre las mismas.
 
-Como equipo es importante destacar que debe de haber una buena comunicación entre las tres partes para que las mismas esten de acuerdo con el rumbo del proyecto, además tratar de minimizar conflictos y maximizar trasparencias con el fin de que el proyecto no se vea perjudicado.
+Como equipo es importante destacar que debe de haber una buena comunicación entre las tres partes para que las mismas estén de acuerdo con el rumbo del proyecto, además tratar de minimizar conflictos y maximizar trasparencias con el fin de que el proyecto no se vea perjudicado.
+
+### Criterios de Estimación Utilizados:
+A la hora de estimar las tareas e historias de usuario, el criterio fue elegido por cada integrante, de cuánto pensaba que lo podía tomar. En la gran mayoría de los casos, cada integrante estimó de forma correcta, con pequeñas variaciones, pero si cabe destacar que hubo casos que fueron estimados erróneamente, atrasando el trabajo. De todas formas, en cada iteración se cumplían casi todos los objetivos planteados al principio de la misma.
 
 ### Definition of Ready:
-Se trata de inspeccionar que los items del Product Backlog sean comprendidos por el equipo de desarrollo y además que cada item cumpla con las siguientes características: Independiente, negociable, estimable, valuable, pequeña y testeable. 
+Se trata de inspeccionar que los items del Product Backlog sean comprendidos por el equipo de desarrollo y además que cada item cumpla con las siguientes características: Independiente, negociable, estimable, valuable, pequeña y testeable. En el caso de este proyecto, al ser un equipo pequeño, cada integrante se aseguró de que se cumplan los requisitos y que sea comprensible.
 
 ### Definition of Done:
-La definición de *Done* describe que es necesario para que el próximo incremento del producto pueda darse por finalizado y entregable a un usuario final.
-
+La definición de *Done* describe que es necesario para que el próximo incremento del producto pueda darse por finalizado y entregable a un usuario final. Para darse por terminado la siguiente iteración, se comprueba que todos los requerimientos  solicitados para esa iteración hayan sido cumplidos y que no se encuentre nada incompleto.
 
 # Sprint 1
 
@@ -92,8 +94,8 @@ Usuario No Registrado:
 - Registrarse para poder guardar datos personalizados por cada perfil.
 
 Usuario Registrado:
-- Recuperar contraseña para poder volver a inciar sesión en caso de olvidarla.
-- Compartir el viaje en tiempo real con otros usuarios para que puedan ver la ubiciación en la que se está actualmente en un instante dado.
+- Recuperar contraseña para poder volver a iniciar sesión en caso de olvidarla.
+- Compartir el viaje en tiempo real con otros usuarios para que puedan ver la ubicación en la que se está actualmente en un instante dado.
 ' Visualizar el historial de viajes pasados.
 
 Usuario:
@@ -659,11 +661,6 @@ A partir del objetivo del sprint y la priorización de las historias decidimos e
 
 ## **Prototipos**
 
-- agregar y ordenar las US (mirar el numero del MD) 
-
-- US ID 10 - US 4 hay que agregar los cambios de wpp
-- US ID 11 - US 5 terminado
-
 #### US 4:
 Para la sección de registro decidimos crear una barra lateral donde el usuario podrá iniciar sesión o registrarse.
 
@@ -703,23 +700,35 @@ El usuario puede ver el tiempo estimado de llegada de su ómnibus en tiempo real
 
 #### US 4 - ID 10:
 El usuario puede registrarse a traves de la barra de navegación. 
+
 <img src="images/sidebar-NotLoggedIn.png">
+
 Una vez que se selecciona el botón de registro, se abre un modal con el formulario de registro.
+
 <img src="images/register.png">
+
 El usuario llena los campos y selecciona el botón de "Registrarse". Luego de eso se le envía un codigo de confirmación a su numero telefónico que luego es usado para verificar la cuenta.
+
 <img src="images/verify-phone.png">
+
 Una vez que se verifica el numero de teléfono, el usuario puede iniciar sesión con su cuenta en seleccionando la opción de login.
 
 #### US6 - ID 12:
 Una vez que el usuario esta registrado, el mismo puede editar su información personal, como por ejemplo el numero de teléfono, el email, etc. Esto se puede hacer desde la barra de navegación, seleccionando la opción de "Mi información".
+
 <img src="images/sidebar-LoggedIn.png">
+
 Seleccionando la opción de "Mi información" se abre un modal con la información del usuario.
+
 <img src="images/change-user-information.png">
+
 Una vez que el usuario selecciona el botón de guardar los cambios estos quedan efectuados
 
 #### US 7 - ID 13:
-El usuario puede ver las paradas de su viaje de dos maneras, una es mediante el mapa cuando el usuario esta en modo viaje. 
+El usuario puede ver las paradas de su viaje de dos maneras, una es mediante el mapa cuando el usuario esta en modo viaje.
+
 <img src="images/live-travel.png">
+
 Como se puede ver en el mapa, los puntos violetas son las paradas. Las paradas por las cuales el usuario ya paso se muestran con un circulo con relleno blanco y las paradas por las cuales el usuario aun no paso se muestran en color violeta.
 
 La otra es mediante el detalle del viaje, presionando el botón verde.
@@ -738,12 +747,14 @@ Una vez que el usuario selecciona el botón de iniciar viaje, se le muestra un m
 Presionando este botón podemos ver el modal con el detalle del viaje.
 
 <img src="images/live-travel.png">
+
 <img src="images/live-travel-detail.png">
 
 #### US11 - ID 16:
 Una vez que el usuario se encuentra en un viaje, la aplicación envía notificaciones al usuario cuando el viaje esta por comenzar y cuando el viaje esta por finalizar.
 
 <img src="images/Notification-bus-arriving.png">
+
 <img src="images/Notification-arriving-destiny.png">
 
 #### US 12 - ID 17:
@@ -754,16 +765,24 @@ Si el omnibus viene retrasado se muestra en rojo el nuevo tiempo esperado de lle
 
 #### US 13 - ID 19:
 El usuario puede descargar la información de las líneas ingresando al botón inferior de ver líneas. 
+
 <img src="images/main-screen.png">
+
 Una vez que el usuario selecciona el botón de ver líneas, se le muestra un modal con el listado de las líneas.
+
 <img src="images/search-line60.png">
+
 Desde este modal, el usuario puede buscar o seleccionar la línea que desea descargar. Apretando esa línea, se amplia la información de la misma.
+
 <img src="images/download-line60.png">
+
 Una vez que el usuario amplia la información, se le muestra un modal con la información de la línea y el botón de descargar.
-Si el usuario presiona este botón, esta línea es descargada. Luego puede acceder a ella desde el botón de "Líneas" en la pantalla principal. Donde mediante un icono verde se indica que la línea esta descargada
+Si el usuario presiona este botón, esta línea es descargada. Luego puede acceder a ella desde el botón de "Líneas" en la pantalla principal. Donde mediante un icono verde se indica que la línea esta descargada.
+
 <img src="images/downloaded-line60.png">
 
 #### Burndown Chart
+
 <img src="images/burndown-sprint3.jpg">
 
 ## Validación con usuarios
@@ -783,6 +802,7 @@ A ambos les gustaron las funcionalidades que brindaba la aplicación. El usuario
 Al usuario 3 le pareció de gran utilidad ya que al transportarse en ómnibus todos los días, le sirve para ver dónde es la parada que más cercana que le sirva desde un origen que no suele frecuentar. Por otro lado, a los otros dos usuarios les encantó también, pero no es algo que usarían tanto ya que lo usan para ir a lugares conocidos, si no conocen ese lugar, usan algún otro medio de transporte.
 #### Evidencia de entrevistas
 ##### Entrevista con los usuarios 1 y 2
+
 <img src="images/entrevista_1.png">
 
 

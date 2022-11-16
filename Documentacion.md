@@ -11,14 +11,14 @@ Salvador Panissa 245625.
 
 Como equipo es importante destacar que debe de haber una buena comunicación entre las tres partes para que las mismas estén de acuerdo con el rumbo del proyecto, además tratar de minimizar conflictos y maximizar trasparencias con el fin de que el proyecto no se vea perjudicado.
 
-### Criterios de Estimación Utilizados:
+### Criterios de estimación utilizados:
 A la hora de estimar las tareas e historias de usuario, el criterio fue elegido por cada integrante, de cuánto pensaba que lo podía tomar. En la gran mayoría de los casos, cada integrante estimó de forma correcta, con pequeñas variaciones, pero si cabe destacar que hubo casos que fueron estimados erróneamente, atrasando el trabajo. De todas formas, en cada iteración se cumplían casi todos los objetivos planteados al principio de la misma.
 
 ### Definition of Ready:
-Se trata de inspeccionar que los items del Product Backlog sean comprendidos por el equipo de desarrollo y además que cada item cumpla con las siguientes características: Independiente, negociable, estimable, valuable, pequeña y testeable. En el caso de este proyecto, al ser un equipo pequeño, cada integrante se aseguró de que se cumplan los requisitos y que sea comprensible.
+Se trata de inspeccionar que los items del Product Backlog sean comprendidos por el equipo de desarrollo y además que cada item cumpla con las siguientes características: Independiente, negociable, estimable, valuable, pequeña y testeable. En el caso de este proyecto, los ítems del backlog deberán ser escritas en formato de historia de usuario. Además al ser un equipo pequeño, cada integrante se aseguró de que se cumplan los requisitos y que sea comprensible con el fin de llegar a una estimación en conjunto de manera ágil.
 
 ### Definition of Done:
-La definición de *Done* describe que es necesario para que el próximo incremento del producto pueda darse por finalizado y entregable a un usuario final. Para darse por terminado la siguiente iteración, se comprueba que todos los requerimientos  solicitados para esa iteración hayan sido cumplidos y que no se encuentre nada incompleto.
+La definición de *Done* describe que es necesario para que el próximo incremento del producto pueda darse por finalizado y entregable a un usuario final. Para darse por terminado la siguiente iteración, se comprueba que todos los requerimientos solicitados para esa iteración hayan sido cumplidos y que no se encuentre nada incompleto. Según esta definición; en el proyecto, el equipo se asegura de haber cumplido con el objetivo de cada iteración y tener la documentación al día .
 
 # Sprint 1
 
@@ -785,33 +785,39 @@ Si el usuario presiona este botón, esta línea es descargada. Luego puede acced
 
 <img src="images/burndown-sprint3.jpg">
 
+La gráfica muestra la suma de puntos de historias que se asignaron para la iteración el cual fue de 36. Como se puede observar todas fueron completadas para el final del sprint.
+
 ## Validación con usuarios
+
 Se realizaron entrevistas a posibles usuarios para validar el producto. Los posibles usuarios seleccionados fueron personas que usan el transporte público en la ciudad de Montevideo. Estos fueron:
 - Usuario 1: 21 años, estudiante de ingeniería, usa el transporte público 4 veces por semana.
 - Usuario 2: 24 años, estudiante de ingeniería, usa el transporte público 2 veces por semana.
 - Usuario 3: 27 años, estudiante de derecho, usa el transporte público todos los días semana.
 
 Los usuarios fueron entrevistados en la oficina de la empresa. Se les mostró el producto y se les pidió que lo usaran. Luego se les hizo una serie de preguntas para validar el producto. Las preguntas fueron:
+
 #### ¿Qué te parece el diseño del producto?
 En general tanto al usuario 1 como al usuario 2 les pareció intuitiva la interfaz del producto. El usuario 1 dijo que le gustó el diseño y el usuario 2 dijo que le pareció muy intuitivo. Por el lado del usuario 3 le agradó cómo se le informa al usuario sobre los casos erróneos de acciones, cómo las validaciones de las funcionalidades que requieren el uso de internet.
+
 #### ¿Qué te parece la usabilidad del producto?
 A todos los usuarios les pareció que la usabilidad del producto era óptima, dijeron que como la aplicación facilita la lectura de los textos y presentan funciones y menús sencillos. Una cosa que nos comentó el usuario 2 es que le gustaría que la aplicación brindara la opción de ingresar sesión con google y nos pareció una funcionalidad que podría aportar valor al producto por lo que en la daily meet se propuso implementarla. Al usuario 3 le hubiese gustado que la aplicación tenga su versión en otro idioma, ya sea el inglés, debido a que conoce a mucha gente de otros países que desconocen el idioma de español.
+
 #### ¿Qué te parecen las funcionalidades del producto?
 A ambos les gustaron las funcionalidades que brindaba la aplicación. El usuario 1 dijo que era todo lo que esperaba de una aplicación de transporte. En relación al diseño de la aplicación, el usuario 1 planteo la posibilidad de poder marcar a las líneas como favoritas mediante un simple botón reactivo. Por ello fue que se diseñó el componente de la estrella que representa las líneas marcadas como favoritas. El usuario 2 dijo que a pesar de que las funcionalidades que provee la aplicación son de suma utilidad, una buena funcionalidad para agregarle a la misma seria la posibilidad de poder pagar el boleto de transporte mediante la app con el fin de evitar usar dinero en efectivo. Nos pareció una buena idea y se discutió la posibilidad de agregarla pero requería un cambio grande en la infraestructura de la aplicación por lo que decidimos no prover esa funcionalidad.
+
 #### ¿Qué te parece la información que se muestra en el detalle de la línea?
 Al usuario 3 le pareció de gran utilidad ya que al transportarse en ómnibus todos los días, le sirve para ver dónde es la parada que más cercana que le sirva desde un origen que no suele frecuentar. Por otro lado, a los otros dos usuarios les encantó también, pero no es algo que usarían tanto ya que lo usan para ir a lugares conocidos, si no conocen ese lugar, usan algún otro medio de transporte.
+
 #### Evidencia de entrevistas
+
 ##### Entrevista con los usuarios 1 y 2
 
 <img src="images/entrevista_1.png">
 
-
-
 ## Adaptación de Daily Scrum
 
-Con respecto a las "Daily Scrum", el equipo siguió un orden estipulado para que cada integrante pueda informar a los demás sobre las tareas que había hecho y las que va a realizar en un futuro. Este orden establecido era por orden alfabético de los nombres de los integrantes del equipo. Cada vez que le tocaba hablar a alguno no sólo se informaba de lo trabajado, sino que también si precisaba ayuda en alguna tarea y también algún detalle que se consideraba informarle al equipo (por ejemplo los días de licencia).
+Con respecto a las "Daily Scrum", como se trata de un proyecto en el cual el equipo no trabaja tiempo completo se decidió tener 3 por semana. El equipo siguió un orden estipulado para que cada integrante pueda informar a los demás sobre las tareas que había hecho y las que va a realizar en un futuro. Este orden establecido era por orden alfabético de los nombres de los integrantes del equipo. Cada vez que le tocaba hablar a alguno no sólo se informaba de lo trabajado, sino que también si precisaba ayuda en alguna tarea y también algún detalle que se consideraba informarle al equipo (por ejemplo los días de licencia).
 
 ## Sprint Review y Sprint Retrospective
 
 Gracias a la retrospectiva de la última iteración pudimos mejorar la comunicación del equipo, esto junto con una mayor organización y mejor dominio del problema conllevo a que el equipo haya tenido un mejor desempeñado en la sprint. Lo anterior se vio traducido en la velocidad del equipo, cumplimiento con el objetivo y planeación de la iteración y eficiencia del equipo.
-

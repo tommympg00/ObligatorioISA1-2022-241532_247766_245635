@@ -1,6 +1,10 @@
 ## Sprint review & retrospective
 
-Como cierre de cada iteración celebramos las ceremonias de sprint review y retrospective donde el equipo realizó una llamada a través de la aplicación de _Discord_ con el fin de evaluar posibles mejoras acerca del producto y del desarrollo así como también revisar las prioridades de los items del product backlog para las siguientes iteraciones; por otro lado, reflexionamos acerca de nuestros puntos débiles a la hora de trabajar y organizarnos, y con lo anterior poder enriquecer nuestra actuación y adquirir una mayor eficiencia.
+Como cierre de cada iteración celebramos las ceremonias de sprint review y retrospective donde el equipo realizó una llamada a través de la aplicación de _Discord_ con el fin de evaluar posibles mejoras acerca del producto y del desarrollo así como también revisar las prioridades del product backlog y en el caso de que fuera necesario priorizar nuevamente; por otro lado, reflexionamos acerca de nuestros puntos débiles a la hora de trabajar y organizarnos, y con lo anterior poder enriquecer nuestra actuación y adquirir una mayor eficiencia en las siguientes iteraciones. Ambas ceremonias fueron de gran utilidad ya que nos ayudaron a tener un mejor control del proyecto y del trabajo que se iba llevando a cabo, además de un mayor desempeño individual y colectivamente en el correr de las iteraciones.
+
+##### Evidencia de celebraciones
+
+<img src="images/.png">
 
 ## GitHub
 

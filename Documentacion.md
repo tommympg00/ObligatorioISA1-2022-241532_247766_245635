@@ -568,7 +568,7 @@ El usuario es capaz de filtrar las líneas de un listado con el fin de encontrar
  
 <img src="images/Main-Screen.png"/>
 <br><br>
-<img src="images/filter-lines.png"/>
+<img src="images/Filter-Lines.png"/>
 
 El usuario puede buscar la línea deseada mediante la barra de búsqueda encontrada en la parte superior de la aplicación.
  
@@ -665,7 +665,8 @@ A partir del objetivo del sprint y la priorización de las historias decidimos e
 Para la sección de registro decidimos crear una barra lateral donde el usuario podrá iniciar sesión o registrarse.
 
 <img src="images/Sidebar-NotLoggedIn.png"/>
-<img src="images/Sidebar-loggedIn.png">
+
+<img src="images/Sidebar-LoggedIn.png">
 
 En el caso de que estemos logueados entonces podremos agregar líneas y paradas a favoritos clickeando sobre "Líneas" y "Paradas" respectivamente en el menú principal y acceder a las mismas desde allí.
 
@@ -676,7 +677,7 @@ En el caso de que estemos logueados entonces podremos agregar líneas y paradas 
 #### US 5:
 Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña, al clickear sobre "Forgot your Password?".
 
-<img src="images/Login-Screen.png"/>
+<img src="images/Login-screen.png"/>
 
 Si el usuario selecciona este botón se le envía un correo al email ingresado con instrucciones para recuperar la cuenta.
 

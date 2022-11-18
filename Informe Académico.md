@@ -48,4 +48,8 @@ El proyecto fue guiado por la metodología de Scrum siendo este un marco de trab
 A su vez, este trabajo nos permitió familiarizarnos con los distintos tipos de herramientas que fueron útiles para el desarrollo y el trabajo en equipo, Figma para el prototipado y Azure DevOps para la organización del proyecto en general.
 Creemos que el resultado obtenido fue el adecuado. El proyecto se desarrolló de manera eficiente y se logró cumplir con los objetivos planteados en el product backlog definido y este mismo tuvo como consecuencia un prototipo acertado de la idea y las expectativas de la aplicacion. La forma de trabajo fue muy buena, ya que el equipo se organizó de manera progresiva y finalizó con una mejora en rendimiento y eficiencia, además el equipo trabajó de manera constante y consistente. Pudimos experimentar las buenas técnicas de ingeniería y llevarlas a cabo, para así entender los beneficios de aplicarlas.
 
+## Link al video del prototipo:
+
+https://web.microsoftstream.com/video/c63aa158-c47e-4745-9967-2884e90f63d2
+
 

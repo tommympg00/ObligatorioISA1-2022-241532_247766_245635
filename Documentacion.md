@@ -830,3 +830,9 @@ Con respecto a las "Daily Scrum", como se trata de un proyecto en el cual el equ
 ## Sprint Review y Sprint Retrospective
 
 Gracias a la retrospectiva de la última iteración pudimos mejorar la comunicación del equipo, esto junto con una mayor organización y mejor dominio del problema conllevo a que el equipo haya tenido un mejor desempeñado en la sprint. Lo anterior se vio traducido en la velocidad del equipo, cumplimiento con el objetivo y planeación de la iteración y eficiencia del equipo.
+
+## Roadmap
+
+Aquí podemos observar el "Roadmap" del proyecto, el cual se observa las historias de usuario que fueron hechas en cada iteración. Esto brindó y aseguró que los objetivos a corto plazo se cumplan mientras se controla y ajusta al objetivo principal a largo plazo, que sería el producto final.
+
+<img src="images/roadmap.jpg"/>

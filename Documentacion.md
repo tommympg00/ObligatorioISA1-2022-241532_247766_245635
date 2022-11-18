@@ -79,7 +79,7 @@ CUTCSA es una aplicación de la Compañía Uruguaya de Transportes Colectivos qu
 - No calcula rutas, solo muestra por dónde va la línea que sale de una determinada parada.
 - A veces es difícil seleccionar una parada en zonas como el centro de la ciudad donde la cantidad de paradas es mayor al resto del país.
 
-<img src="images/foto1.png" style="height: 350px; width:350px;  margin-left: 230px;"/>
+<img src="images/Foto1.png" style="height: 350px; width:350px;  margin-left: 230px;"/>
 
 # **Lista de funcionalidades por interesado**
 
@@ -669,9 +669,9 @@ Para la sección de registro decidimos crear una barra lateral donde el usuario 
 
 En el caso de que estemos logueados entonces podremos agregar líneas y paradas a favoritos clickeando sobre "Líneas" y "Paradas" respectivamente en el menú principal y acceder a las mismas desde allí.
 
-<img src="images/favourite-lines.png"/>
+<img src="images/Favourite-Lines.png"/>
 
-<img src="images/favourite-stops.png"/>
+<img src="images/Favourite-Stops.png"/>
 
 #### US 5:
 Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña, al clickear sobre "Forgot your Password?".
@@ -680,20 +680,20 @@ Al momento de iniciar sesión tenemos la opción de olvidar nuestra contraseña,
 
 Si el usuario selecciona este botón se le envía un correo al email ingresado con instrucciones para recuperar la cuenta.
 
-<img src="images/forgot-password.png"/>
+<img src="images/Forgot-Password.png"/>
 
 #### US 6:
 A la hora de buscar las paradas, estas se deberían poder filtrar por paradas además de poder visualizar las paradas marcadas como favoritos.
 
-<img src="images/filter-lines.png"/>
+<img src="images/Filter-Lines.png"/>
 
 
-<img src="images/favourite-lines.png"/>
+<img src="images/Favourite-Lines.png"/>
 
 #### US 2 - ID 8:
 Cuando el usuario selecciona un origen y un destino del viaje, aparecen todas las posibles combinaciones de trayectos que lo llevan a ese destino. Allí el usuario en base a sus preferencias de tiempo de viaje, cantidad de trasbordos, línea favorita, etc., puede decidir que viaje tomar.
 
-<img src="images/found-routes.png">
+<img src="images/Found-Routes.png">
 
 #### US 3 - ID 9:
 El usuario puede ver el tiempo estimado de llegada de su ómnibus en tiempo real una vez que selecciona la opción de iniciar viaje. 
@@ -701,7 +701,7 @@ El usuario puede ver el tiempo estimado de llegada de su ómnibus en tiempo real
 #### US 4 - ID 10:
 El usuario puede registrarse a traves de la barra de navegación. 
 
-<img src="images/sidebar-NotLoggedIn.png">
+<img src="images/Sidebar-NotLoggedIn.png">
 
 Una vez que se selecciona el botón de registro, se abre un modal con el formulario de registro.
 
@@ -716,11 +716,11 @@ Una vez que se verifica el numero de teléfono, el usuario puede iniciar sesión
 #### US6 - ID 12:
 Una vez que el usuario esta registrado, el mismo puede editar su información personal, como por ejemplo el numero de teléfono, el email, etc. Esto se puede hacer desde la barra de navegación, seleccionando la opción de "Mi información".
 
-<img src="images/sidebar-LoggedIn.png">
+<img src="images/Sidebar-LoggedIn.png">
 
 Seleccionando la opción de "Mi información" se abre un modal con la información del usuario.
 
-<img src="images/change-user-information.png">
+<img src="images/Change-User-Information.png">
 
 Una vez que el usuario selecciona el botón de guardar los cambios estos quedan efectuados
 
@@ -737,7 +737,7 @@ La otra es mediante el detalle del viaje, presionando el botón verde.
 
 Presionando este botón abre un modal con el detalle de las paradas y el tiempo que falta por llegar a las mismas.
 
-<img src="images/view-stops.png">
+<img src="images/View-Stops.png">
 
 #### US 8 - ID 14:
 Una vez que el usuario selecciona el botón de iniciar viaje, se le muestra un modal con el detalle del viaje, el cual incluye el tiempo estimado de llegada, el tiempo que falta para llegar a la parada, el tiempo que falta para llegar al destino, el tiempo que lleva llegar al destino.
@@ -766,7 +766,7 @@ Si el omnibus viene retrasado se muestra en rojo el nuevo tiempo esperado de lle
 #### US 13 - ID 19:
 El usuario puede descargar la información de las líneas ingresando al botón inferior de ver líneas. 
 
-<img src="images/main-screen.png">
+<img src="images/Main-Screen.png">
 
 Una vez que el usuario selecciona el botón de ver líneas, se le muestra un modal con el listado de las líneas.
 

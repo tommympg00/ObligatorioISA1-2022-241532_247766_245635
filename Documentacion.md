@@ -12,7 +12,11 @@ Salvador Panissa 245625.
 Como equipo es importante destacar que debe de haber una buena comunicación entre las tres partes para que las mismas estén de acuerdo con el rumbo del proyecto, además tratar de minimizar conflictos y maximizar trasparencias con el fin de que el proyecto no se vea perjudicado.
 
 ### Criterios de estimación utilizados:
-A la hora de estimar las tareas e historias de usuario, el criterio fue elegido por cada integrante, de cuánto pensaba que lo podía tomar. En la gran mayoría de los casos, cada integrante estimó de forma correcta, con pequeñas variaciones, pero si cabe destacar que hubo casos que fueron estimados erróneamente, atrasando el trabajo. De todas formas, en cada iteración se cumplían casi todos los objetivos planteados al principio de la misma.
+Por un lado, uno de los criterios de estimación utilizados fue la de "T-Shirt Size", el cual consiste en estimar los ítems
+con las talles que tienen las remeras (XS, S, M, L). Se decidió optar por esta técnica ya que el equipo es nuevo en la estimación ágil y
+además es una forma más fácil de entender la cantidad de esfuerzo que se requiere.
+Por otro lado, para complementar el criterio mecionado anteriormente, se utilizó la analogía. Esto consiste en comparar las historias de
+usuario entre sí para asumir la estimación requerida. Por ejemplo, si tenemos una historia de usuario estimada para una semana,  y otra que contiene más tareas, se le va a asignar una estimación mayor.
 
 ### Definition of Ready:
 Se trata de inspeccionar que los items del Product Backlog sean comprendidos por el equipo de desarrollo y además que cada item cumpla con las siguientes características: Independiente, negociable, estimable, valuable, pequeña y testeable. En el caso de este proyecto, los ítems del backlog deberán ser escritas en formato de historia de usuario. Además al ser un equipo pequeño, cada integrante se aseguró de que se cumplan los requisitos y que sea comprensible con el fin de llegar a una estimación en conjunto de manera ágil.
@@ -548,6 +552,9 @@ Salvador Panissa (Developer).
 ## Sprint planning 
  
 El objetivo del siguiente sprint es lograr que el usuario pueda viajar en ómnibus a través de la ayuda de la aplicación.
+
+## Propuesta de Valor
+La propuesta de valor que ofrece nuestro proyecto no es sólo la de conocer qué rutas sirven para llegar al destino deseado, sino que se decidio brindar una experiencia completa con el fin de que nuestros usuarios puedan realizar el viaje de forma segura y eficiente. Para esto, la aplicación cuenta con un sistema de notificaciones que avisa al usuario cuando su línea está llegando a su origen y destino, y también le permite conocer si su línea se retrasó o tiene un desvío. Además, el usuario puede descargar las frecuencias de las líneas que frecuenta o tiene en favoritos para ahorrar en datos. No obstante, tambien se ofrecen funcionalidades offline para el usuario que no tiene acceso a internet, como el hecho de poder tener descargadas las líneas que frecuenta con el fin de que en el caso de que el usuario pierda la conexion a internet, aun pueda llegar a tiempo a su destino.
  
 ## Sprint Backlog
  
@@ -786,6 +793,7 @@ Si el usuario presiona este botón, esta línea es descargada. Luego puede acced
 
 <img src="images/burndown-sprint3.jpg">
 
+El Burndown Chart hace visible el trabajo del equipo ya que es una representación gráfica que muestra la velocidad a la que se completa el trabajo y cuánto queda por hacer. Como se puede observar, el gráfico se inclina hacia abajo a lo largo de la duración del Sprint y a través de los Puntos de Historia completados. Esto es un indicador de que el equipo está trabajando a un ritmo constante y que el trabajo se está completando a tiempo. 
 La gráfica muestra la suma de puntos de historias que se asignaron para la iteración el cual fue de 36. Como se puede observar todas fueron completadas para el final del sprint.
 
 ## Validación con usuarios
@@ -817,7 +825,7 @@ Al usuario 3 le pareció de gran utilidad ya que al transportarse en ómnibus to
 
 ## Adaptación de Daily Scrum
 
-Con respecto a las "Daily Scrum", como se trata de un proyecto en el cual el equipo no trabaja tiempo completo se decidió tener 3 por semana. El equipo siguió un orden estipulado para que cada integrante pueda informar a los demás sobre las tareas que había hecho y las que va a realizar en un futuro. Este orden establecido era por orden alfabético de los nombres de los integrantes del equipo. Cada vez que le tocaba hablar a alguno no sólo se informaba de lo trabajado, sino que también si precisaba ayuda en alguna tarea y también algún detalle que se consideraba informarle al equipo (por ejemplo los días de licencia).
+Con respecto a las "Daily Scrum", como se trata de un proyecto en el cual el equipo no trabaja tiempo completo se decidió tener 3 por semana. Usualmente se realizaban los dias Lunes, Miercoles y Viernes pero debido a factores externos, a veces era necesario suspender un dia y pasarlo para el dia siguiente. El equipo siguió un orden estipulado para que cada integrante pueda informar a los demás sobre las tareas que había hecho y las que va a realizar en un futuro. Este orden establecido era por orden alfabético de los nombres de los integrantes del equipo. Cada vez que le tocaba hablar a alguno no sólo se informaba de lo trabajado, sino que también si precisaba ayuda en alguna tarea y también algún detalle que se consideraba informarle al equipo (por ejemplo los días de licencia).
 
 ## Sprint Review y Sprint Retrospective
 
